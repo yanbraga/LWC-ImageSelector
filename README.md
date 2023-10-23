@@ -1,8 +1,6 @@
-# ImageSelector
+# ImageSelector - Salesforce LWC ⚡
 
-## With this project, you will be able to create an  Lightning Web Component that can select an image and create a record :rocket: :cloud:
-
-### The central idea of this project was to create a Winery (which you can adapt to meet your needs)
+## The ImagePicker app is a simple and user-friendly tool designed to allow users to select images from a set of options. With a visually intuitive interface, users can easily click on images to make selections. It's a straightforward solution for applications where visual selection plays a significant role :cloud: :rocket:
 
 ![ezgif com-video-to-gif](https://github.com/yanbraga/ImageSelector/assets/84753609/9751e578-900f-4e72-907d-b94512e89f27)
 
