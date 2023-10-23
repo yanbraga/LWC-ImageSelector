@@ -1,0 +1,24 @@
+<template>
+    <div class="slds-m-around_large">
+        <h1>Grapes</h1>
+        <div class="slds-grid slds-wrap">
+            <template for:each={fruits} for:item="fruit">
+                <div key={fruit.name} class="slds-col slds-size_1-of-3">
+                    <a href="javascript:void(0);" onclick={handleImageSelect} data-name={fruit.name}>
+                        <img src={fruit.sfImage} alt={fruit.name} />
+                        <div class="grape-name">{fruit.name}</div>
+                    </a>
+                </div>
+            </template>
+        </div>
+        <div class="slds-form slds-form_stacked">
+            <lightning-input label="Grape Production (Tons)" type="number" value={tonnesOfGrapes} onchange={handleTonnesChange}></lightning-input>
+            <lightning-input label="Entry Date" type="date" value={entryDate} onchange={handleEntryDateChange}></lightning-input>
+            <lightning-input label="Description" type="text" value={description} onchange={handleDescriptionChange}></lightning-input>
+        </div>
+        <div class="slds-m-top_medium">
+            <lightning-button label="Finish" onclick={handleFinish} class="custom-button-finish"></lightning-button>
+            <lightning-button label="Reset" onclick={handleReset} class="custom-button-reset"></lightning-button>
+        </div>
+    </div>
+</template>
