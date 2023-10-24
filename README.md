@@ -10,7 +10,7 @@ Images have been uploaded using Salesforce's static resources. You can check the
 
 ## Object: Fruit
 
-| Fruit Name(Name) | grapeType__c(Picklist) | EntryDate__c(Date/Time) | Description__c(Text) | tonnesGrapes__C(Number) |
+| Fruit Name(Name) | grapeType__c(Picklist) | EntryDate__c(Date/Time) | Description__c(Text) | tonnesGrapes__c(Number) |
 |------------------|------------------------|-------------------------|----------------------|-------------------------|
 |                  | Merlot                 |                         |                      |                         |
 |                  | Cabernet               |                         |                      |                         |
